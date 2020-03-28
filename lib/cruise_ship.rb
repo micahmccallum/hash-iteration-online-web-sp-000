@@ -9,5 +9,6 @@ suite_e: "Crumpet the Elf"
 def select_winner(passengers)
   passengers.select do |suite, name|
     suite == :suite_a
+    return name
   end
 end
